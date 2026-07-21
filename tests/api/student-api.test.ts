@@ -33,7 +33,7 @@ function makeStudentToken() {
 
 async function callStudentGET(authHeader: string) {
   const { GET } = await import('@/app/api/student/pri-test/route');
-  const req = new NextRequest('http://localhost/api/student/pri-test', {
+  const req = new NextRequest('http://localhost/api/student/pri-test?full=true', {
     method: 'GET',
     headers: { Authorization: authHeader },
   });

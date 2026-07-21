@@ -17,21 +17,18 @@ function cn(...inputs: Array<string | undefined | null | boolean>) {
 
 
 const DOMAIN_COLOR_MAP: Record<string, string> = {
-  cognitiveintelligence: '#FF4B8C',
-  businessintelligence: '#3B82F6',
-  problemsolving: '#A855F7',
-  coding: '#A855F7',
-  communication: '#F97316',
-  leadership: '#10B981',
-  digitalbusiness: '#06B6D4',
+  computationalthinking: '#3B82F6',
+  programmingfundamentals: '#10B981',
+  frontendengineering: '#6366F1',
+  backendengineering: '#8B5CF6',
+  databaseengineering: '#F59E0B',
+  debuggingquality: '#EF4444',
+  systemdesign: '#EC4899',
+  aiaugmented: '#06B6D4',
 };
 
 const getDomainColor = (name: string) => {
   const normalized = String(name || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-  // Special fallbacks for shorter names if needed
-  if (normalized === 'cognitive') return DOMAIN_COLOR_MAP.cognitiveintelligence;
-  if (normalized === 'business') return DOMAIN_COLOR_MAP.businessintelligence;
-  if (normalized === 'digital') return DOMAIN_COLOR_MAP.digitalbusiness;
   
   return DOMAIN_COLOR_MAP[normalized] || '#64748b';
 };

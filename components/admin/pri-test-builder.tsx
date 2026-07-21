@@ -296,7 +296,7 @@ export default function PriTestBuilder() {
 
   const [stepIndex, setStepIndex] = useState(0);
   const [title, setTitle] = useState('');
-  const [program, setProgram] = useState('MBA');
+  const [program, setProgram] = useState('FSE');
   const [examStartDate, setExamStartDate] = useState('');
   const [examEndDate, setExamEndDate] = useState('');
   const [isSingleDay, setIsSingleDay] = useState(true);
@@ -308,7 +308,7 @@ export default function PriTestBuilder() {
       domainStartTime: '',
       domainEndTime: '',
       selected: false,
-      subskills: domain.id === 'workspace-psychology' 
+      subskills: (domain.id as string) === 'workspace-psychology' 
         ? domain.skills.map((skill) => ({
             name: skill.split(' - ')[0].trim(),
             share: 0,
@@ -486,11 +486,11 @@ export default function PriTestBuilder() {
     const endDate = isSingleDay ? startDate : formatDate(addDays(today, 7));
 
     const pickedDomains = DOMAINS;
-    const nonWorkspaceDomains = pickedDomains.filter((domain) => domain.id !== 'workspace-psychology');
+    const nonWorkspaceDomains = pickedDomains.filter((domain) => (domain.id as string) !== 'workspace-psychology');
     const shareAllocation = allocateShare(100, nonWorkspaceDomains.length);
 
     setTitle('January PRI Test');
-    setProgram('MBA');
+    setProgram('FSE');
     setExamStartDate(startDate);
     setExamEndDate(endDate);
     
@@ -530,7 +530,7 @@ export default function PriTestBuilder() {
 
         const domainSpec = DOMAINS.find(d => d.id === domain.domainId);
         const freshSubskills = domainSpec
-          ? domainSpec.id === 'workspace-psychology'
+          ? (domainSpec.id as string) === 'workspace-psychology'
               ? domainSpec.skills.map((skill) => ({
                   name: skill.split(' - ')[0].trim(),
                   share: 0,
@@ -1032,7 +1032,7 @@ export default function PriTestBuilder() {
                 onChange={(e) => setProgram(e.target.value)}
                 className="w-full rounded-xl border border-zinc-200 px-4 py-3 text-sm focus:ring-2 focus:ring-[#D62027]/10 focus:border-[#D62027] transition-all font-medium"
               >
-                {['MBA', 'MCA', 'BBA', 'BCA', 'PGDM', 'MCom'].map((option) => (
+                {['FSE'].map((option) => (
                   <option key={option} value={option}>
                     {option}
                   </option>

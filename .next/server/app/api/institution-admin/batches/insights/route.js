@@ -1,0 +1,10 @@
+var R=require("../../../../../chunks/[turbopack]_runtime.js")("server/app/api/institution-admin/batches/insights/route.js")
+R.c("server/chunks/[root-of-the-server]__3eddf7b2._.js")
+R.c("server/chunks/27a07_@google_generative-ai_dist_index_mjs_b190fa0b._.js")
+R.c("server/chunks/27a07_next_dist_esm_build_templates_app-route_8db0dbcf.js")
+R.c("server/chunks/27a07_formdata-node_lib_esm_File_78c6b280.js")
+R.c("server/chunks/[root-of-the-server]__1c9b4c15._.js")
+R.c("server/chunks/[root-of-the-server]__4cf78c52._.js")
+R.c("server/chunks/e7427_server_app_api_institution-admin_batches_insights_route_actions_52b46e97.js")
+R.m(76412)
+module.exports=R.m(76412).exports

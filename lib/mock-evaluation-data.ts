@@ -66,7 +66,7 @@ export function generateMockEvaluationData(testId: string): StudentEvaluationRes
 
     // Filter out workspace-psychology from MCQ evaluation mock data
     const domainStats: DomainStat[] = DOMAINS
-      .filter(domain => domain.id !== 'workspace-psychology')
+      .filter(domain => (domain.id as string) !== 'workspace-psychology')
       .slice(0, 6).map((domain) => {
       const subskillsList = Array.from(new Set(domain.skills.map(s => s.split(' - ')[0].trim())));
       
@@ -118,7 +118,7 @@ export function generateMockEvaluationData(testId: string): StudentEvaluationRes
     else { prizePill = 'None'; }
 
     // Filter out workspace-psychology from domain results
-    const filteredDomains = domainStats.filter(d => d.domainId !== 'workspace-psychology');
+    const filteredDomains = domainStats.filter(d => (d.domainId as string) !== 'workspace-psychology');
 
     return {
       studentId: student.id,

@@ -1,0 +1,18 @@
+{
+  "/admin/page": "app/admin/page.js",
+  "/admin/pri-test/page": "app/admin/pri-test/page.js",
+  "/api/admin/insights/route": "app/api/admin/insights/route.js",
+  "/api/admin/institutions/route": "app/api/admin/institutions/route.js",
+  "/api/admin/pri-questions/route": "app/api/admin/pri-questions/route.js",
+  "/api/admin/pri-tests/route": "app/api/admin/pri-tests/route.js",
+  "/api/admin/questions/route": "app/api/admin/questions/route.js",
+  "/api/auth/login/route": "app/api/auth/login/route.js",
+  "/api/auth/signup/route": "app/api/auth/signup/route.js",
+  "/api/contributors/route": "app/api/contributors/route.js",
+  "/api/student/insights/route": "app/api/student/insights/route.js",
+  "/api/student/pri-score/route": "app/api/student/pri-score/route.js",
+  "/api/student/pri-test/route": "app/api/student/pri-test/route.js",
+  "/api/student/results/route": "app/api/student/results/route.js",
+  "/page": "app/page.js",
+  "/student/page": "app/student/page.js"
+}

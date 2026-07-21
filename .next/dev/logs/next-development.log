@@ -1,0 +1,712 @@
+[00:00:00.502] Server  LOG     ✓ Ready in 382ms
+[00:00:01.992] Browser ERROR   [AdminDashboard] loadPriTests Error: {}
+[00:00:01.992] Browser ERROR   [AdminDashboard] loadPriTests Error: {}
+[00:00:01.992] Browser ERROR   [AdminDashboard] loadPriTests Error: {}
+[00:00:01.992] Browser ERROR   [AdminDashboard] loadPriTests Error: {}
+[00:00:02.408] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.589] Server  LOG     [MongoDB] 🔄 Initiating new connection to MongoDB...
+[00:00:03.851] Server  LOG     [MongoDB] ✅ Connected successfully
+[00:00:06.987] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:07.107] Browser WARN    Image with src "/grad360.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:12.312] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:12.326] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:00:12.329] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:00:12.347] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:00:12.435] Browser WARN    Image with src "/grad360.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:14.868] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:00:20.305] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:00:21.234] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:00:21.237] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:00:21.647] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:00:21.820] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:00:22.526] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:00:23.429] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:00:24.028] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:00:24.100] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:00:24.419] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:00:26.139] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:00:27.034] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:00:27.573] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:00:29.358] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:00:32.970] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:00:57.973] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:01:02.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:01:27.973] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:01:32.971] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:01:57.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:02:02.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:02:27.970] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:02:32.973] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:02:57.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:03:02.971] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:03:27.974] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:03:57.980] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:04:27.979] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:04:29.979] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:05:29.984] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:05:29.990] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:06:29.983] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:06:29.991] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:07:29.978] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:07:29.985] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:08:27.425] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:08:29.967] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:08:57.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:09:27.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:09:29.970] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:09:57.973] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:10:29.974] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:10:29.978] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:11:29.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:11:29.977] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:12:29.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:12:29.977] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:13:29.973] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:13:29.977] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:14:29.977] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:14:29.981] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:15:29.974] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:15:29.977] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:16:29.976] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:16:29.979] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:17:15.174] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:17:27.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:17:29.975] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:17:57.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:18:27.973] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:18:29.973] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:18:57.973] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:19:29.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:19:29.976] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:20:29.978] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:20:29.982] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:21:06.193] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:21:27.574] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:21:29.975] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:21:57.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:22:27.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:22:29.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:23:28.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:23:29.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:24:29.979] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:24:29.983] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:24:57.977] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:25:27.578] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:25:29.973] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:25:57.575] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:26:27.575] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:26:29.970] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:26:57.574] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:27:27.575] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:27:29.971] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:27:57.574] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:28:27.575] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:28:29.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:28:57.576] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:29:27.575] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:29:29.971] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:29:57.577] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:30:27.574] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:30:29.973] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:30:57.576] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:31:27.574] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:31:29.970] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:31:57.574] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:32:27.574] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:32:29.971] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:32:57.574] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:33:27.574] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:33:29.971] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:33:57.573] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:34:27.575] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:34:29.968] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:34:57.575] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:35:27.575] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:35:29.970] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:35:57.573] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:36:27.973] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:36:29.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:36:57.970] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:37:29.973] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:37:29.977] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:38:29.973] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:38:29.977] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:39:29.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:39:29.976] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:40:29.971] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:40:29.974] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:41:29.971] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:41:29.975] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:42:20.859] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:42:27.971] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:42:29.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:42:57.970] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:43:29.971] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:43:29.977] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:44:29.977] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:44:29.981] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:45:29.977] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:45:29.982] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:46:29.976] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:46:29.981] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:47:29.977] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:47:29.981] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:47:59.271] Server  LOG     ✓ Compiled in 43ms
+[00:48:30.018] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:48:30.040] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:48:42.914] Server  LOG     ✓ Compiled in 32ms
+[00:48:56.885] Server  LOG     ✓ Compiled in 33ms
+[00:49:29.978] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:49:29.982] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:50:29.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:50:29.976] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:51:29.973] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:51:29.978] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:52:29.978] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:52:29.983] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:53:29.987] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:53:29.995] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:54:29.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:54:29.976] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:55:29.973] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:55:29.977] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:56:29.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:56:29.976] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:57:29.971] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:57:29.975] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:57:57.576] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:57:58.789] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:57:58.910] Browser WARN    Image with src "/grad360.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:58:09.711] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:58:09.728] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:58:09.731] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:58:09.734] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:58:09.840] Browser WARN    Image with src "/grad360.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:58:13.809] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:58:14.145] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:58:29.974] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:58:43.811] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:58:50.109] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:59:29.974] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:59:52.002] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:59:52.006] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:59:52.012] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:59:52.046] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:59:52.048] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[00:59:56.207] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:00:29.974] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:01:29.976] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:01:36.309] Server  LOG     ✓ Compiled in 31ms
+[01:01:51.797] Server  LOG     ✓ Compiled in 31ms
+[01:01:51.963] Browser ERROR   The final argument passed to %s changed size between renders. The order and size of this array must remain constant.
+
+Previous: %s
+Incoming: %s useEffect [Developer] []
+[01:02:01.744] Server  LOG     ✓ Compiled in 31ms
+[01:02:16.118] Server  LOG     ✓ Compiled in 30ms
+[01:02:16.964] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx:559:5
+Parsing ecmascript source code failed
+  557 |         };
+  558 |       })
+> 559 |     );
+      |     ^
+  560 |   }
+  561 |
+  562 |   function validateStep0(): string | null {
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx
+    ./Documents/Project/smart.hiresapien.in/app/admin/pri-test/page.tsx
+[01:02:16.964] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx:559:5
+Parsing ecmascript source code failed
+  557 |         };
+  558 |       })
+> 559 |     );
+      |     ^
+  560 |   }
+  561 |
+  562 |   function validateStep0(): string | null {
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx
+    ./Documents/Project/smart.hiresapien.in/app/admin/pri-test/page.tsx
+[01:02:30.963] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx:559:5
+Parsing ecmascript source code failed
+  557 |         };
+  558 |       })
+> 559 |     );
+      |     ^
+  560 |   }
+  561 |
+  562 |   function validateStep0(): string | null {
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx
+    ./Documents/Project/smart.hiresapien.in/app/admin/pri-test/page.tsx
+[01:02:30.963] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx:559:5
+Parsing ecmascript source code failed
+  557 |         };
+  558 |       })
+> 559 |     );
+      |     ^
+  560 |   }
+  561 |
+  562 |   function validateStep0(): string | null {
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx
+    ./Documents/Project/smart.hiresapien.in/app/admin/pri-test/page.tsx
+[01:02:30.963] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx:559:5
+Parsing ecmascript source code failed
+  557 |         };
+  558 |       })
+> 559 |     );
+      |     ^
+  560 |   }
+  561 |
+  562 |   function validateStep0(): string | null {
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx
+    ./Documents/Project/smart.hiresapien.in/app/admin/pri-test/page.tsx
+[01:02:30.963] Browser ERROR   [API Utils] Failed to parse JSON: {} Response text: <!DOCTYPE html><html><head><meta charSet="utf-8" data-next-head=""/><meta name="viewport" content="w
+[01:02:30.964] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx:559:5
+Parsing ecmascript source code failed
+  557 |         };
+  558 |       })
+> 559 |     );
+      |     ^
+  560 |   }
+  561 |
+  562 |   function validateStep0(): string | null {
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx
+    ./Documents/Project/smart.hiresapien.in/app/admin/pri-test/page.tsx
+[01:02:30.964] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx:559:5
+Parsing ecmascript source code failed
+  557 |         };
+  558 |       })
+> 559 |     );
+      |     ^
+  560 |   }
+  561 |
+  562 |   function validateStep0(): string | null {
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx
+    ./Documents/Project/smart.hiresapien.in/app/admin/pri-test/page.tsx
+[01:02:30.964] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx:559:5
+Parsing ecmascript source code failed
+  557 |         };
+  558 |       })
+> 559 |     );
+      |     ^
+  560 |   }
+  561 |
+  562 |   function validateStep0(): string | null {
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx
+    ./Documents/Project/smart.hiresapien.in/app/admin/pri-test/page.tsx
+[01:02:47.426] Server  LOG     ✓ Compiled in 37ms
+[01:02:47.986] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:02:53.870] Server  LOG     ✓ Compiled in 31ms
+[01:02:54.963] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx:556:5
+Parsing ecmascript source code failed
+  554 |         };
+  555 |       })
+> 556 |     );
+      |     ^
+  557 |   }
+  558 |
+  559 |   function validateStep0(): string | null {
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx
+    ./Documents/Project/smart.hiresapien.in/app/admin/pri-test/page.tsx
+[01:02:54.964] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx:556:5
+Parsing ecmascript source code failed
+  554 |         };
+  555 |       })
+> 556 |     );
+      |     ^
+  557 |   }
+  558 |
+  559 |   function validateStep0(): string | null {
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx
+    ./Documents/Project/smart.hiresapien.in/app/admin/pri-test/page.tsx
+[01:03:30.964] Browser ERROR   [API Utils] Failed to parse JSON: {} Response text: <!DOCTYPE html><html><head><meta charSet="utf-8" data-next-head=""/><meta name="viewport" content="w
+[01:03:30.964] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx:556:5
+Parsing ecmascript source code failed
+  554 |         };
+  555 |       })
+> 556 |     );
+      |     ^
+  557 |   }
+  558 |
+  559 |   function validateStep0(): string | null {
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx
+    ./Documents/Project/smart.hiresapien.in/app/admin/pri-test/page.tsx
+[01:03:30.964] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx:556:5
+Parsing ecmascript source code failed
+  554 |         };
+  555 |       })
+> 556 |     );
+      |     ^
+  557 |   }
+  558 |
+  559 |   function validateStep0(): string | null {
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx
+    ./Documents/Project/smart.hiresapien.in/app/admin/pri-test/page.tsx
+[01:04:30.963] Browser ERROR   [API Utils] Failed to parse JSON: {} Response text: <!DOCTYPE html><html><head><meta charSet="utf-8" data-next-head=""/><meta name="viewport" content="w
+[01:04:30.963] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx:556:5
+Parsing ecmascript source code failed
+  554 |         };
+  555 |       })
+> 556 |     );
+      |     ^
+  557 |   }
+  558 |
+  559 |   function validateStep0(): string | null {
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx
+    ./Documents/Project/smart.hiresapien.in/app/admin/pri-test/page.tsx
+[01:04:30.963] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx:556:5
+Parsing ecmascript source code failed
+  554 |         };
+  555 |       })
+> 556 |     );
+      |     ^
+  557 |   }
+  558 |
+  559 |   function validateStep0(): string | null {
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx
+    ./Documents/Project/smart.hiresapien.in/app/admin/pri-test/page.tsx
+[01:04:55.966] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:05:01.807] Server  LOG     ✓ Compiled in 37ms
+[01:05:01.904] Browser ERROR   uncaughtError: ReferenceError: domains is not defined
+[01:05:07.737] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:05:07.793] Server  LOG     ✓ Compiled in 23ms
+[01:05:07.867] Server  ERROR   ⨯ ReferenceError: domains is not defined
+[01:05:07.935] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:08.963] Browser ERROR   uncaughtError: ReferenceError: domains is not defined
+[01:05:29.975] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:05:33.873] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:05:33.923] Server  LOG     ✓ Compiled in 30ms
+[01:05:33.983] Server  ERROR   ⨯ ReferenceError: domains is not defined
+[01:05:34.038] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:34.964] Browser ERROR   uncaughtError: ReferenceError: domains is not defined
+[01:05:40.248] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:05:40.292] Server  LOG     ✓ Compiled in 30ms
+[01:05:40.349] Server  ERROR   ⨯ ReferenceError: domains is not defined
+[01:05:40.422] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:40.965] Browser ERROR   uncaughtError: ReferenceError: domains is not defined
+[01:05:46.948] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:05:47.026] Server  ERROR   ⨯ ReferenceError: domains is not defined
+[01:05:47.026] Server  LOG     ✓ Compiled in 30ms
+[01:05:47.071] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:47.963] Browser ERROR   uncaughtError: ReferenceError: domains is not defined
+[01:05:52.867] Server  LOG     ✓ Compiled in 27ms
+[01:05:52.972] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx:2008:1
+Parsing ecmascript source code failed
+  2006 |   );
+  2007 | }
+> 2008 |
+       | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx
+    ./Documents/Project/smart.hiresapien.in/app/admin/pri-test/page.tsx
+[01:05:53.963] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx:2008:1
+Parsing ecmascript source code failed
+  2006 |   );
+  2007 | }
+> 2008 |
+       | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx
+    ./Documents/Project/smart.hiresapien.in/app/admin/pri-test/page.tsx
+[01:05:59.963] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx:2006:1
+Parsing ecmascript source code failed
+  2004 |   );
+  2005 | }
+> 2006 |
+       | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx
+    ./Documents/Project/smart.hiresapien.in/app/admin/pri-test/page.tsx
+[01:05:59.963] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx:2006:1
+Parsing ecmascript source code failed
+  2004 |   );
+  2005 | }
+> 2006 |
+       | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/admin/pri-test-builder.tsx
+    ./Documents/Project/smart.hiresapien.in/app/admin/pri-test/page.tsx
+[01:06:09.531] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:06:09.583] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:06:09.607] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:06:09.971] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:06:25.078] Browser WARN    Image with src "/grad360.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:06:27.110] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:06:27.126] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:06:27.234] Browser WARN    Image with src "/grad360.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:06:28.611] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:06:28.623] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:06:28.729] Browser WARN    Image with src "/grad360.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:06:30.113] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:06:30.119] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:06:30.169] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:06:30.171] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:06:34.542] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:06:34.860] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:06:38.395] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:06:40.685] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:06:40.689] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:06:40.728] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:06:40.730] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:07:14.644] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:07:21.995] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:07:22.106] Browser WARN    Image with src "/grad360.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:07:29.971] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:08:29.979] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:09:29.976] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:10:29.976] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:11:29.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:12:29.975] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:13:29.973] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:13:52.867] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Documents/Project/smart.hiresapien.in/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:13:52.960] Server  LOG     ✓ Compiled in 63ms
+[01:13:53.225] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:13:53.332] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:13:53.346] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:13:53.363] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:14:01.984] Server  LOG     ✓ Compiled in 59ms
+[01:14:23.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:14:53.970] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:15:23.977] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:15:53.985] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:16:09.163] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:16:10.908] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:16:10.978] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:16:10.991] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:16:11.003] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:16:11.033] Browser WARN    Image with src "/grad360.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:16:17.719] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:16:20.675] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:16:20.804] Browser WARN    Image with src "/grad360.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:16:23.970] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:16:53.989] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:17:29.984] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:17:30.017] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:17:30.353] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:17:30.379] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:17:30.382] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:17:30.386] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:17:30.476] Browser WARN    Image with src "/grad360.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:17:33.618] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:17:33.727] Browser WARN    Image with src "/grad360.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:18:23.142] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:18:23.162] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:18:23.165] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:18:23.169] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:18:23.282] Browser WARN    Image with src "/grad360.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:18:27.260] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:18:29.969] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:19:19.963] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/student/dashboard.tsx:360:9
+Parsing ecmascript source code failed
+  358 |
+  359 |         }
+> 360 |         setError('');
+      |         ^^^^^^^^
+  361 |         return;
+  362 |       }
+  363 |       setIsCompleted(false);
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/student/dashboard.tsx
+    ./Documents/Project/smart.hiresapien.in/app/student/page.tsx
+[01:19:19.963] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/student/dashboard.tsx:360:9
+Parsing ecmascript source code failed
+  358 |
+  359 |         }
+> 360 |         setError('');
+      |         ^^^^^^^^
+  361 |         return;
+  362 |       }
+  363 |       setIsCompleted(false);
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/student/dashboard.tsx
+    ./Documents/Project/smart.hiresapien.in/app/student/page.tsx
+[01:19:30.189] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/student/dashboard.tsx:360:9
+Parsing ecmascript source code failed
+  358 |
+  359 |         }
+> 360 |         setError('');
+      |         ^^^^^^^^
+  361 |         return;
+  362 |       }
+  363 |       setIsCompleted(false);
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/student/dashboard.tsx
+    ./Documents/Project/smart.hiresapien.in/app/student/page.tsx
+[01:19:30.189] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/student/dashboard.tsx:360:9
+Parsing ecmascript source code failed
+  358 |
+  359 |         }
+> 360 |         setError('');
+      |         ^^^^^^^^
+  361 |         return;
+  362 |       }
+  363 |       setIsCompleted(false);
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/student/dashboard.tsx
+    ./Documents/Project/smart.hiresapien.in/app/student/page.tsx
+[01:19:30.964] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/student/dashboard.tsx:360:9
+Parsing ecmascript source code failed
+  358 |
+  359 |         }
+> 360 |         setError('');
+      |         ^^^^^^^^
+  361 |         return;
+  362 |       }
+  363 |       setIsCompleted(false);
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/student/dashboard.tsx
+    ./Documents/Project/smart.hiresapien.in/app/student/page.tsx
+[01:19:30.964] Browser ERROR   [API Utils] Failed to parse JSON: {} Response text: <!DOCTYPE html><html><head><meta charSet="utf-8" data-next-head=""/><meta name="viewport" content="w
+[01:19:30.964] Browser ERROR   ./Documents/Project/smart.hiresapien.in/components/student/dashboard.tsx:360:9
+Parsing ecmascript source code failed
+  358 |
+  359 |         }
+> 360 |         setError('');
+      |         ^^^^^^^^
+  361 |         return;
+  362 |       }
+  363 |       setIsCompleted(false);
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Documents/Project/smart.hiresapien.in/components/student/dashboard.tsx
+    ./Documents/Project/smart.hiresapien.in/app/student/page.tsx
+[01:19:40.259] Server  LOG     ✓ Compiled in 29ms
+[01:20:29.995] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:21:29.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:22:29.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:23:16.918] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:23:16.932] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:23:17.040] Browser WARN    Image with src "/grad360.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:23:29.977] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:24:29.971] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:25:29.975] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:26:29.975] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:26:45.086] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:26:45.117] Server  LOG     ✓ Compiled in 34ms
+[01:27:29.974] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:28:22.877] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:28:22.896] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:28:23.006] Browser WARN    Image with src "/grad360.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:28:29.979] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:29:12.313] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:29:12.874] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:29:12.958] Server  ERROR   [POST /api/admin/pri-tests] ValidationError: domains.0.domainId: Invalid domain
+[01:29:15.631] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:29:16.173] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:29:16.211] Server  ERROR   [POST /api/admin/pri-tests] ValidationError: domains.0.domainId: Invalid domain
+[01:29:17.445] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:29:18.026] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:29:18.079] Server  ERROR   [POST /api/admin/pri-tests] ValidationError: domains.0.domainId: Invalid domain
+[01:29:29.972] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:29:50.369] Server  LOG     ✓ Compiled in 26ms
+[01:30:29.974] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:31:29.976] Server  LOG     [MongoDB] ✅ Using existing cached connection
+[01:32:29.974] Server  LOG     [MongoDB] ✅ Using existing cached connection

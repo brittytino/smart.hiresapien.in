@@ -356,7 +356,7 @@ export default function StudentDashboard() {
           setBankInfo(data.bank || { 
             id: 'completed',
             title: data.title || 'PRI Readiness Test',
-            program: data.program || 'MBA'
+            program: data.program || 'Developer'
           });
         }
         setError('');

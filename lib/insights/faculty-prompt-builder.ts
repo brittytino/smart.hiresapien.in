@@ -100,7 +100,7 @@ export function buildFacultyPrompt(studentData: StudentData): string {
       "facultyNote": "<one sentence diagnostic: what pattern does this domain score reveal?>",
       "watchList": ["SubSkillName (XX%) - one-line reason for concern"],
       "commendList": ["SubSkillName (XX%) - one-line reason for commendation"],
-      "suggestedIntervention": "<one specific, actionable coaching suggestion for faculty>"
+      "suggestedIntervention": "<one specific, actionable instructional suggestion for faculty>"
     }`).join(',\n');
 
   return `You are a faculty advisor at GRAD360 reviewing a student's MBA Placement Readiness Index (PRI) report.

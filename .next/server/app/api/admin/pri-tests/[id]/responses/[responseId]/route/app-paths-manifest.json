@@ -1,0 +1,3 @@
+{
+  "/api/admin/pri-tests/[id]/responses/[responseId]/route": "app/api/admin/pri-tests/[id]/responses/[responseId]/route.js"
+}

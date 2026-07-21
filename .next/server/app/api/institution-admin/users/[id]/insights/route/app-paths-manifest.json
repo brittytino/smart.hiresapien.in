@@ -1,0 +1,3 @@
+{
+  "/api/institution-admin/users/[id]/insights/route": "app/api/institution-admin/users/[id]/insights/route.js"
+}

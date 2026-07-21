@@ -26,8 +26,8 @@ export default function QuestionForm({ domain, token, onSuccess, onCancel }: Que
   const CLOUDINARY_UPLOAD_PRESET = 'grad360mba';
 
   const [trait, setTrait] = useState(domain.skills[0] ?? '');
-  const isWorkspacePsychology = domain.id === 'workspace-psychology';
-  const isCommunication = domain.id === 'communication';
+  const isWorkspacePsychology = (domain.id as string) === 'workspace-psychology';
+  const isCommunication = (domain.id as string) === 'communication';
   const [questionType, setQuestionType] = useState<'mcq' | 'written'>('mcq');
   const [questionText, setQuestionText] = useState('');
   const [questionImageUrl, setQuestionImageUrl] = useState('');

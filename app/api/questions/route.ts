@@ -91,7 +91,7 @@ export async function POST(request: NextRequest) {
   }
 
   const domainMeta = DOMAIN_MAP[domain as keyof typeof DOMAIN_MAP];
-  const isWorkspacePsychology = domainMeta.id === 'workspace-psychology';
+  const isWorkspacePsychology = (domainMeta.id as string) === 'workspace-psychology';
 
   if (typeof subSkill !== 'string' || !domainMeta.skills.includes(subSkill)) {
     return NextResponse.json({ error: 'Invalid subskill for this domain' }, { status: 400 });

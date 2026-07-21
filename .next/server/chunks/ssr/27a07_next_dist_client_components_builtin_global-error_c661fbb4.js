@@ -1,0 +1,3 @@
+module.exports=[37976,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(82615);a.n(d("[project]/Documents/Project/smart.hiresapien.in/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},21986,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(82615);a.n(d("[project]/Documents/Project/smart.hiresapien.in/node_modules/next/dist/client/components/builtin/global-error.js"))},3901,a=>{"use strict";a.i(37976);var b=a.i(21986);a.n(b)}];
+
+//# sourceMappingURL=27a07_next_dist_client_components_builtin_global-error_c661fbb4.js.map

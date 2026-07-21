@@ -15,7 +15,7 @@ export default function MCQResultsView({ results, onClose }: MCQResultsViewProps
   // Filter out workspace-psychology domain from all results
   const filteredResults = results.map(result => ({
     ...result,
-    domains: result.domains.filter(domain => domain.domainId !== 'workspace-psychology')
+    domains: result.domains.filter(domain => (domain.domainId as string) !== 'workspace-psychology')
   }));
 
   const getPillColor = (pill: string) => {
@@ -157,7 +157,7 @@ export default function MCQResultsView({ results, onClose }: MCQResultsViewProps
 
                    <div className="grid gap-10">
                       {student.domains
-                        .filter(dom => dom.domainId !== 'workspace-psychology')
+                        .filter(dom => (dom.domainId as string) !== 'workspace-psychology')
                         .map((dom) => (
                         <div key={dom.domainId} className="space-y-6">
                            <div className="flex items-center justify-between border-b border-zinc-100 pb-3">
