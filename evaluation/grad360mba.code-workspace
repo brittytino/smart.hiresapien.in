@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"path": "../.next"
+		},
+		{
+			"path": "../.github/workflows"
+		},
+		{
+			"path": "../docs"
+		},
+		{
+			"path": "../components"
+		},
+		{
+			"path": "../app"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../models"
+		},
+		{
+			"path": "../node_modules"
+		},
+		{
+			"path": "../lib"
+		},
+		{
+			"path": "../scripts"
+		},
+		{
+			"path": "../pri-report"
+		}
+	],
+	"settings": {}
+}
