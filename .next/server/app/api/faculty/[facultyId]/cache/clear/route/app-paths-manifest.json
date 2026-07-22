@@ -1,3 +1,0 @@
-{
-  "/api/faculty/[facultyId]/cache/clear/route": "app/api/faculty/[facultyId]/cache/clear/route.js"
-}
