@@ -46,24 +46,50 @@ export default function SmartReportView({ reportData, onRestart }: SmartReportVi
     setDownloading(true);
 
     try {
+      // Dynamically import html-to-image to avoid SSR issues
+      const { toPng } = await import('html-to-image');
       const element = reportRef.current;
-      const canvas = await html2canvas(element, {
-        scale: 2,
-        useCORS: true,
+      
+      // We wait a tiny bit to ensure any CSS animations are completed before capturing
+      await new Promise(resolve => setTimeout(resolve, 500));
+
+      const imgData = await toPng(element, {
+        pixelRatio: 2,
         backgroundColor: '#ffffff', // Clean white background print
+        style: {
+          transform: 'scale(1)',
+          transformOrigin: 'top left'
+        }
       });
 
-      const imgData = canvas.toDataURL('image/png');
+      // Standard A4 PDF
       const pdf = new jsPDF({
         orientation: 'portrait',
-        unit: 'px',
-        format: [canvas.width / 2, canvas.height / 2],
+        unit: 'mm',
+        format: 'a4',
       });
 
-      const width = pdf.internal.pageSize.getWidth();
-      const height = pdf.internal.pageSize.getHeight();
+      const pdfWidth = pdf.internal.pageSize.getWidth();
+      
+      // We need element dimensions to maintain aspect ratio
+      const rect = element.getBoundingClientRect();
+      const pdfHeight = (rect.height * pdfWidth) / rect.width;
+      
+      let heightLeft = pdfHeight;
+      let position = 0;
 
-      pdf.addImage(imgData, 'PNG', 0, 0, width, height);
+      // Add the first page
+      pdf.addImage(imgData, 'PNG', 0, position, pdfWidth, pdfHeight);
+      heightLeft -= pdf.internal.pageSize.getHeight();
+
+      // Handle multiple pages if the report is taller than one A4 page
+      while (heightLeft >= 0) {
+        position = heightLeft - pdfHeight;
+        pdf.addPage();
+        pdf.addImage(imgData, 'PNG', 0, position, pdfWidth, pdfHeight);
+        heightLeft -= pdf.internal.pageSize.getHeight();
+      }
+
       pdf.save(`SMART_Assessment_Report_${reportData.fullName.replace(/\s+/g, '_')}.pdf`);
     } catch (error) {
       console.error('PDF export failed:', error);
@@ -129,7 +155,7 @@ export default function SmartReportView({ reportData, onRestart }: SmartReportVi
             </div>
             <div className="flex items-center gap-2 mb-2">
               <span className="text-xl font-black tracking-[0.1em] text-slate-950 uppercase">SDE Readiness Report</span>
-              <span className="text-[10px] font-black bg-blue-50 border border-blue-100 px-2 py-0.5 rounded text-blue-600 uppercase tracking-widest">
+              <span className="text-[10px] font-black bg-slate-100 border border-slate-200 px-2 py-0.5 rounded text-slate-700 uppercase tracking-widest">
                 v1.0
               </span>
             </div>
@@ -203,7 +229,7 @@ export default function SmartReportView({ reportData, onRestart }: SmartReportVi
             </div>
 
             <div className="mt-6 flex flex-col items-center gap-1">
-              <span className="text-[11px] font-black bg-blue-50 text-blue-600 px-3 py-1 rounded-full border border-blue-100 uppercase tracking-wider">
+              <span className="text-[11px] font-black bg-slate-100 text-slate-700 px-3 py-1 rounded-full border border-slate-200 uppercase tracking-wider">
                 {reportData.readinessLevel}
               </span>
             </div>
@@ -289,7 +315,6 @@ export default function SmartReportView({ reportData, onRestart }: SmartReportVi
           {/* Key Benchmarks */}
           <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm flex flex-col">
             <div className="flex items-center gap-2 mb-4">
-              <Target className="w-4 h-4 text-blue-600" />
               <span className="text-[10px] font-black text-slate-500 uppercase tracking-widest">
                 Key Performance Indicators
               </span>
@@ -320,7 +345,6 @@ export default function SmartReportView({ reportData, onRestart }: SmartReportVi
           {/* Learning Recommendations */}
           <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm flex flex-col">
             <div className="flex items-center gap-2 mb-4">
-              <BookOpen className="w-4 h-4 text-blue-600" />
               <span className="text-[10px] font-black text-slate-500 uppercase tracking-widest">
                 Adaptive Study Plan Recommendations
               </span>

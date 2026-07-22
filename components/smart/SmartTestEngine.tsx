@@ -428,8 +428,8 @@ export default function SmartTestEngine({ sessionId, candidateInfo, onSubmitTest
             <span className="text-slate-400 text-xs font-normal">({candidateInfo?.email || 'demo@hiresapien.in'})</span>
           </div>
 
-          <div className="flex items-center gap-2 bg-blue-50/80 border border-blue-100 px-4 py-2 rounded-xl text-blue-700 font-bold font-mono">
-            <Timer className="w-4 h-4 text-blue-600 animate-pulse" />
+          <div className="flex items-center gap-2 bg-slate-100 border border-slate-200 px-4 py-2 rounded-xl text-slate-700 font-bold font-mono">
+            <Timer className="w-4 h-4 text-slate-500 animate-pulse" />
             <span>
               {Math.floor(timeLeft / 60)}:{(timeLeft % 60).toString().padStart(2, '0')}
             </span>
@@ -444,9 +444,8 @@ export default function SmartTestEngine({ sessionId, candidateInfo, onSubmitTest
           {/* Header Info */}
           <div className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-100 mb-6">
             <div className="flex items-center gap-3">
-              <div className="bg-blue-50 px-3 py-1.5 rounded-full border border-blue-100 flex items-center gap-1.5">
-                <Award className="w-4 h-4 text-blue-600" />
-                <span className="text-[10px] font-black tracking-wider text-blue-600 uppercase">
+              <div className="bg-slate-100 px-3 py-1.5 rounded-full border border-slate-200 flex items-center gap-1.5">
+                <span className="text-[10px] font-black tracking-wider text-slate-700 uppercase">
                   {DOMAIN_NAMES[currentQuestion.domainId]}
                 </span>
               </div>
@@ -496,7 +495,7 @@ export default function SmartTestEngine({ sessionId, candidateInfo, onSubmitTest
                     onClick={() => setSelectedOption(opt.label)}
                     className={`w-full text-left p-4.5 rounded-xl border text-sm font-semibold transition-all duration-200 flex items-center gap-4 cursor-pointer ${
                       selectedOption === opt.label
-                        ? 'bg-blue-50/70 border-blue-500 text-blue-900 shadow-sm'
+                        ? 'bg-slate-100/70 border-blue-500 text-slate-900 shadow-sm'
                         : 'bg-white border-slate-200 text-slate-700 hover:border-blue-300 hover:bg-slate-50/50'
                     }`}
                   >
@@ -533,7 +532,7 @@ export default function SmartTestEngine({ sessionId, candidateInfo, onSubmitTest
                       }}
                       className={`w-full text-left p-4.5 rounded-xl border text-sm font-semibold transition-all duration-200 flex items-center gap-4 cursor-pointer ${
                         isSelected
-                          ? 'bg-blue-50/70 border-blue-500 text-blue-900 shadow-sm'
+                          ? 'bg-slate-100/70 border-blue-500 text-slate-900 shadow-sm'
                           : 'bg-white border-slate-200 text-slate-700 hover:border-blue-300 hover:bg-slate-50/50'
                       }`}
                     >
@@ -797,7 +796,7 @@ export default function SmartTestEngine({ sessionId, candidateInfo, onSubmitTest
 
             {/* Active Domain Info */}
             <div className="w-full bg-slate-50 border border-slate-100 rounded-2xl p-4 text-center">
-              <span className="text-[9px] font-black text-blue-600 bg-blue-50 border border-blue-100 px-2 py-0.5 rounded-full uppercase tracking-wider">
+              <span className="text-[9px] font-black text-slate-600 bg-slate-200 border border-slate-300 px-2 py-0.5 rounded-full uppercase tracking-wider">
                 Current Domain
               </span>
               <p className="text-xs font-black text-slate-800 mt-2">
