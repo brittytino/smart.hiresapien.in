@@ -132,8 +132,8 @@ export default function SmartAdminReports() {
       {/* Metrics Banner */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
         <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-5 flex items-center gap-4">
-          <div className="p-3 bg-blue-50 rounded-xl border border-blue-100">
-            <User className="w-6 h-6 text-blue-600" />
+          <div className="p-3 bg-slate-100 rounded-xl border border-slate-200">
+            <User className="w-6 h-6 text-black" />
           </div>
           <div>
             <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider block">Total Attempts</span>
@@ -142,8 +142,8 @@ export default function SmartAdminReports() {
         </div>
 
         <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-5 flex items-center gap-4">
-          <div className="p-3 bg-emerald-50 rounded-xl border border-emerald-100">
-            <CheckCircle className="w-6 h-6 text-emerald-600" />
+          <div className="p-3 bg-slate-100 rounded-xl border border-slate-200">
+            <CheckCircle className="w-6 h-6 text-black" />
           </div>
           <div>
             <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider block">Senior SDE Ready</span>
@@ -154,8 +154,8 @@ export default function SmartAdminReports() {
         </div>
 
         <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-5 flex items-center gap-4">
-          <div className="p-3 bg-amber-50 rounded-xl border border-amber-100">
-            <Activity className="w-6 h-6 text-amber-600" />
+          <div className="p-3 bg-slate-100 rounded-xl border border-slate-200">
+            <Activity className="w-6 h-6 text-black" />
           </div>
           <div>
             <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider block">Mid SDE Ready</span>
@@ -166,8 +166,8 @@ export default function SmartAdminReports() {
         </div>
 
         <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-5 flex items-center gap-4">
-          <div className="p-3 bg-indigo-50 rounded-xl border border-indigo-100">
-            <Award className="w-6 h-6 text-indigo-600" />
+          <div className="p-3 bg-slate-100 rounded-xl border border-slate-200">
+            <Award className="w-6 h-6 text-black" />
           </div>
           <div>
             <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider block">Average SMART Score</span>
@@ -251,7 +251,7 @@ export default function SmartAdminReports() {
                     <td className="py-4 px-6">
                       <div className="flex flex-col">
                         <span className="text-slate-900 font-bold">{rep.fullName}</span>
-                        <span className="text-[10px] text-blue-600 uppercase tracking-wider font-black mt-0.5">{rep.readinessLevel.split(' (')[0]}</span>
+                        <span className="text-[10px] text-blue-600 uppercase tracking-wider font-black mt-0.5">{(rep.readinessLevel || 'N/A').split(' (')[0]}</span>
                       </div>
                     </td>
                     <td className="py-4 px-6">
@@ -264,14 +264,8 @@ export default function SmartAdminReports() {
                       <span>{rep.gender}, Age {rep.age}</span>
                     </td>
                     <td className="py-4 px-6 text-center">
-                      <span className={`inline-flex px-2.5 py-1 rounded-full font-mono font-bold ${
-                        rep.smartScore >= 800 
-                          ? 'bg-emerald-50 text-emerald-700 border border-emerald-100' 
-                          : rep.smartScore >= 400 
-                          ? 'bg-blue-50 text-blue-750 border border-blue-100' 
-                          : 'bg-red-50 text-red-700 border border-red-100'
-                      }`}>
-                        {rep.smartScore}
+                      <span className="inline-flex px-2.5 py-1 rounded-full font-mono font-bold bg-slate-100 text-red-600 border border-slate-200">
+                        {rep.smartScore ?? 0}
                       </span>
                     </td>
                     <td className="py-4 px-6 text-center text-slate-500 font-mono">
@@ -305,7 +299,7 @@ export default function SmartAdminReports() {
             {/* Modal Header */}
             <div className="flex items-center justify-between p-6 border-b border-slate-100 bg-slate-50/50">
               <div className="flex items-center gap-3">
-                <FileText className="w-5 h-5 text-blue-600" />
+                <FileText className="w-5 h-5 text-black" />
                 <div>
                   <h3 className="text-base font-black text-slate-900">Assessment Detailed Review</h3>
                   <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Candidate: {selectedReport.fullName}</span>
@@ -330,8 +324,8 @@ export default function SmartAdminReports() {
                   <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest mb-3">Overall Score</span>
                   <div className="text-3xl font-black text-slate-900 font-mono">{selectedReport.smartScore}</div>
                   <span className="text-[9px] font-bold text-slate-400 uppercase mt-0.5">of 1000</span>
-                  <div className="mt-4 px-3 py-1 bg-blue-50 border border-blue-100 rounded-full text-[10px] font-black text-blue-600 uppercase tracking-wider">
-                    {selectedReport.readinessLevel}
+                  <div className="mt-4 px-3 py-1 bg-slate-100/70 border border-slate-200 rounded-full text-[10px] font-black text-slate-700 uppercase tracking-wider">
+                    {selectedReport.readinessLevel || 'N/A'}
                   </div>
                 </div>
 
@@ -422,16 +416,20 @@ export default function SmartAdminReports() {
                               <div className="flex flex-wrap gap-1">
                                 {Array.isArray(ans.studentAnswer) ? (
                                   ans.studentAnswer.map((o: string) => (
-                                    <span key={o} className="bg-blue-50 border border-blue-100 px-2 py-0.5 rounded text-[10px] text-blue-600 uppercase font-black">{o}</span>
+                                    <span key={o} className="bg-slate-50 border border-slate-200 px-2 py-0.5 rounded text-[10px] text-slate-900 uppercase font-black">{o}</span>
                                   ))
                                 ) : (
-                                  <span className="text-slate-500">{String(ans.studentAnswer || 'None')}</span>
+                                  <span className="bg-slate-50 border border-slate-200 px-2 py-0.5 rounded text-[10px] text-slate-900 uppercase font-black">{String(ans.studentAnswer || 'None')}</span>
                                 )}
                               </div>
                             ) : (
-                              <span className="text-slate-700 font-semibold">
-                                {ans.studentAnswer ? String(ans.studentAnswer) : <span className="text-slate-400 italic">No answer submitted</span>}
-                              </span>
+                              ans.studentAnswer ? (
+                                <span className="bg-slate-50 border border-slate-200 px-2 py-0.5 rounded text-[10px] text-slate-900 uppercase font-black">
+                                  {String(ans.studentAnswer)}
+                                </span>
+                              ) : (
+                                <span className="text-slate-400 italic">No answer submitted</span>
+                              )
                             )}
                           </div>
                         </div>
