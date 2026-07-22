@@ -1,11 +1,10 @@
 import SmartHomePortal from "@/components/smart/SmartHomePortal";
 
 export const metadata = {
-  title: "SMART Assessment Portal",
+  title: "SMART Assessment Workspace",
   description: "SMART – AI-Powered Industry Readiness Intelligence Platform for Full Stack Engineers",
 };
 
-export default function Home() {
+export default function AssessmentWorkspacePage() {
   return <SmartHomePortal />;
 }
-

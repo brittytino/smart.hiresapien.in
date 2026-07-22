@@ -505,6 +505,7 @@ export default function AdminDashboard() {
       setActiveTab('overview');
     }},
     { label: 'PRI Test Builder', icon: ClipboardList, href: '/admin/pri-test' },
+    { label: 'SMART Reports', icon: ClipboardCheck, href: '/admin/smart-reports' },
     { label: 'Institution Management', icon: Building2, active: activeTab === 'institutions', onClick: () => {
       setSelectedInstitution(null);
       setSelectedPriTest(null);
