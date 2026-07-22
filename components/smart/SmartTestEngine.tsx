@@ -677,7 +677,7 @@ export default function SmartTestEngine({ sessionId, candidateInfo, onSubmitTest
 
             <button
               onClick={handleNext}
-              className="bg-blue-600 hover:bg-blue-700 text-white font-black tracking-wider uppercase rounded-xl py-3 px-6 shadow-[0_8px_20px_-6px_rgba(37,99,235,0.3)] flex items-center gap-2 hover:gap-3 transition-all duration-300 cursor-pointer"
+              className="bg-blue-600 hover:bg-blue-700 text-white font-black tracking-wider uppercase rounded-xl py-3 px-6 shadow-[0_8px_20px_-6px_rgba(10,34,92,0.3)] flex items-center gap-2 hover:gap-3 transition-all duration-300 cursor-pointer"
             >
               <span>{totalQuestionsDone === 15 ? 'Submit Assessment' : 'Next Question'}</span>
               <ArrowRight className="w-4 h-4" />

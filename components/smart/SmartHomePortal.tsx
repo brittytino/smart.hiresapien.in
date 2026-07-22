@@ -457,7 +457,7 @@ export default function SmartHomePortal({ initialTabMode = 'candidate' }: { init
               <button
                 disabled={micState === 'checking'}
                 onClick={() => setStep('testing')}
-                className="w-full bg-blue-600 hover:bg-blue-500 disabled:bg-blue-400/40 text-white font-black tracking-wider uppercase rounded-xl py-3 shadow-[0_8px_20px_-6px_rgba(37,99,235,0.3)] flex items-center justify-center gap-2 hover:gap-3 transition-all duration-300 cursor-pointer disabled:cursor-not-allowed"
+                className="w-full bg-blue-600 hover:bg-blue-500 disabled:bg-blue-400/40 text-white font-black tracking-wider uppercase rounded-xl py-3 shadow-[0_8px_20px_-6px_rgba(10,34,92,0.3)] flex items-center justify-center gap-2 hover:gap-3 transition-all duration-300 cursor-pointer disabled:cursor-not-allowed"
               >
                 <span>Begin Adaptive Assessment</span>
                 <ArrowRight className="w-4 h-4" />

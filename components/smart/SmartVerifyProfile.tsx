@@ -177,7 +177,7 @@ export default function SmartVerifyProfile({ onStart, loading }: SmartVerifyProf
           <button
             type="submit"
             disabled={loading}
-            className="w-full bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400/50 text-white font-black tracking-wider uppercase rounded-xl py-3 px-8 mt-2 shadow-[0_8px_20px_-6px_rgba(37,99,235,0.3)] flex items-center justify-center gap-2 hover:gap-3 transition-all duration-300 cursor-pointer disabled:cursor-not-allowed"
+            className="w-full bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400/50 text-white font-black tracking-wider uppercase rounded-xl py-3 px-8 mt-2 shadow-[0_8px_20px_-6px_rgba(10,34,92,0.3)] flex items-center justify-center gap-2 hover:gap-3 transition-all duration-300 cursor-pointer disabled:cursor-not-allowed"
           >
             <span>{loading ? 'Starting Assessment...' : 'Start SDE Assessment'}</span>
             <ArrowRight className="w-4 h-4" />

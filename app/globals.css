@@ -2,7 +2,7 @@
 
 :root {
   --primary-red: #D62027;
-  --navy: #000000;
+  --navy: #0A225C;
   --page-bg: #F7F8FC;
   --text-main: #000000;
   --text-secondary: #334155;
@@ -29,6 +29,18 @@
   --color-text-muted: var(--text-muted);
   --color-border-light: var(--border);
   --font-sans: system-ui, -apple-system, "Segoe UI", sans-serif;
+  
+  --color-blue-50: #f0f4fa;
+  --color-blue-100: #dce6f5;
+  --color-blue-200: #b9cdeb;
+  --color-blue-300: #8baade;
+  --color-blue-400: #5782ce;
+  --color-blue-500: #3763ba;
+  --color-blue-600: #0A225C;
+  --color-blue-700: #081B4B;
+  --color-blue-800: #07163B;
+  --color-blue-900: #051029;
+  --color-blue-950: #030814;
 }
 
 @layer base {
@@ -138,13 +150,13 @@
   text-transform: uppercase;
   letter-spacing: 0.1em;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(10, 34, 92, 0.2);
 }
 
 .g360-btn-primary:hover {
-  background: #09182F;
+  background: #081B4B;
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 20px rgba(10, 34, 92, 0.3);
 }
 
 .g360-btn-secondary {

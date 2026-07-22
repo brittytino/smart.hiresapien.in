@@ -130,7 +130,7 @@ export default function SmartReportView({ reportData, onRestart }: SmartReportVi
           <button
             onClick={handleDownloadPDF}
             disabled={downloading}
-            className="bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-black text-xs uppercase tracking-wider rounded-xl py-3 px-6 flex items-center gap-2 cursor-pointer transition-all shadow-[0_4px_12px_-3px_rgba(37,99,235,0.3)]"
+            className="bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-black text-xs uppercase tracking-wider rounded-xl py-3 px-6 flex items-center gap-2 cursor-pointer transition-all shadow-[0_4px_12px_-3px_rgba(10,34,92,0.3)]"
           >
             <Download className="w-4 h-4" />
             {downloading ? 'Generating PDF...' : 'Download Report'}
